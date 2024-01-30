@@ -110,15 +110,16 @@ p {
 }
 
 @media (max-width: 600px) {
-    .convert-container {
-        width: 300px;
-    }
+  .convert-container {
+    width: 300px;
+  }
 
-    .btn-convert {
-        width: 280px;
-    }
+  .btn-convert {
+    width: 280px;
+  }
 
-    img {
-
-    }
+  .logo {
+    width: 200px;
+    height: 200px;
+  }
 }
