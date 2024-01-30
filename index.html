@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./js/scripts.js" defer></script>
+    <title>Coversor de dinheiro</title>
+  </head>
+  <body>
+    <div class="container">
+      <img class="logo" src="./img/logo.gif" alt="Logo" />
+      <div class="convert-container">
+        <label>
+          Converter <strong>de</strong>
+          <select id="select-from">
+            <option id="real" value="real">R$ Real brasileiro</option>
+          </select>
+        </label>
+        <label>
+          Converter <strong>para</strong>
+          <select id="select-to">
+            <option id="dolar" value="dolar">US$ Dólar americano</option>
+            <option id="euro" value="euro">€ Euro</option>
+            <option id="libra" value="libra">£ Libra</option>
+            <option id="bitcoin" value="bitcoin">₿ Bitcoin</option>
+          </select>
+        </label>
+        <label>
+          <strong>Valor</strong>
+          <input class="input-value" type="text" placeholder="R$ 10.000,00" />
+        </label>
+        <button class="btn-convert">Converter</button>
+        <div class="convert-result">
+          <div class="convert-from">
+            <img
+              id="img-from"
+              class="flags"
+              src="./img/money/real.png"
+              alt="Converter de"
+            />
+            <p>Real</p>
+            <h2>R$ <span id="convert-value-from">0,00</span></h2>
+          </div>
+          <img
+            class="arrow"
+            src="./img/arrow-bottom.png"
+            alt="Seta para baixo"
+          />
+          <div class="convert-to">
+            <img
+              id="img-to"
+              class="flags"
+              src="./img/money/dolar.png"
+              alt="Coverter para"
+            />
+            <p id="convert-text">Dólar Americano</p>
+            <h2 id="money-convert">
+              US$ <span id="convert-value-to">0.0</span>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
