@@ -109,6 +109,26 @@ p {
   margin: 15px auto;
 }
 
+.symbol-currency {
+  display: block;
+}
+
+.input-value {
+  width: 80%;
+  border-radius: 0;
+  padding-top: 16px;
+}
+
+.symbol-currency span {
+  border-top: 1px solid #bbb;
+  border-left: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+  padding: 15px 8px;
+  margin-right: -4px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
 @media (max-width: 600px) {
   .convert-container {
     width: 300px;
