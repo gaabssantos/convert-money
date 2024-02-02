@@ -143,3 +143,9 @@ p {
     height: 200px;
   }
 }
+
+@media (max-width: 600px) {
+  .container {
+    width: 100vw;
+  }
+}
